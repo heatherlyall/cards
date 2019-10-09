@@ -9,13 +9,12 @@ html {
   box-sizing: inherit;
 }
 
-.cards{
+.cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
-
 
 .cards li {
   display: inline-block;
@@ -28,6 +27,10 @@ html {
   text-align: left;
 }
 
+.cards img {
+  display: block;
+  margin: 0 auto 1rem;
+}
 
 .cards strong {
   display: block;
@@ -40,18 +43,16 @@ html {
   margin-bottom: 1rem;
 }
 
-
 .cards dt {
   display: inline-block;
   width: 6em;
   font-style: italic;
 }
 
-
 .cards dd {
   display: inline-block;
   margin: 0;
-  min-width; 9em;
+  min-width: 9em;
 }
 
 .cards div {
@@ -66,7 +67,6 @@ html {
   color: #000;
   text-decoration: none;
 }
-
 
 .cards a:hover {
   background-color: #333;
